@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+}
+
+.container .container_card-img {
+  margin-left: 50px;
+}
+.container .container_card-img__h1 {
+  color: #000;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 124.188%;
+  margin: 0 20px;
+}
+.container .container_card-img__p {
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 124.188%;
+  margin: 10px 20px;
+}
+.container .container_card-img .container_card-img__images {
+  width: 500px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.container .container_card-img .container_card-img__btn {
+  color: var(--ui-black, #000);
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  width: 187px;
+  height: 30px;
+  padding: 12px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 1.5px solid var(--ui-liner-button-100, #5e5ce4);
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.12);
+  margin: 0 20px;
+}
+
+.icon {
+  width: 500px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: -130px;
+  position: relative;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 65%;
+}
+
+.check {
+  display: flex;
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.check .select {
+  margin-left: 20px;
+  color: var(--ui-black, #000);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.header {
+  margin: 50px;
+}
+.header .paginatsiya {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header .paginatsiya .paginatsiya__plag {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 500px;
+}
+.header .paginatsiya .paginatsiya__plag__p {
+  color: var(--ui-black, #000);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.card {
+  width: 840px;
+  height: 201px;
+  border-radius: 4px;
+  background: var(--ui-white, #FFF);
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.08);
+  margin: 20px 0;
+}
+.card .card_user {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  align-items: center;
+  margin: 20px;
+}
+.card .card_user__p {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 5px 0;
+}
+.card .card_user__p1 {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.card .ssd {
+  margin-left: 80px;
+}
+.card__p {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 126.2%;
+  margin: 10px 0;
+}
+
+.card-1 {
+  display: flex;
+  width: 840px;
+  height: 300px;
+  padding: 22px 19px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 4px;
+  background: var(--ui-white, #FFF);
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.08);
+  margin: 20px 0;
+}
+.card-1 .card-1_input {
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: #FFF;
+  display: flex;
+  width: 607px;
+  height: 95px;
+  padding: 13px 11px;
+  align-items: flex-start;
+  gap: 10px;
+  outline: none;
+  margin: 11px 0;
+}
+.card-1__p {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 126.2%;
+  margin: 16px 0;
+}
+.card-1 .ssd {
+  margin-left: 60px;
+}
+.card-1__btn {
+  display: flex;
+  width: 100px;
+  height: 32px;
+  padding: 6px 7px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 4px;
+  background: var(--ui-liner-border-20, linear-gradient(97deg, rgba(246, 77, 77, 0.2) -57.09%, rgba(77, 94, 246, 0.2) 101.17%));
+  border: none;
+  margin: 20px 0;
+}
+.card-1 .user {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  align-items: center;
+}
+.card-1 .user__p {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 10px 0;
+}
+.card-1 .user__p1 {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}/*# sourceMappingURL=mains.css.map */
